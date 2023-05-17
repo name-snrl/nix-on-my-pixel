@@ -4,8 +4,11 @@
   environment.packages = with pkgs; [
       # base
       nvim.full
+      neovim
+      htop
+      tmux
       page
-      page-as-less
+      #page-as-less
       difftastic
       gojq-as-jq
       ripgrep
